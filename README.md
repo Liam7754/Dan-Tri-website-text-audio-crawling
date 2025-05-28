@@ -39,7 +39,7 @@ Output:
 ## 📂 Folder Structure
 
 
-├── scraper.py
+├── dan_tri_crawl.py
 ├── Audio/
 │   └── article-title.mp3
 ├── Text_Content/

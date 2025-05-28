@@ -23,7 +23,7 @@ Install the required Python packages:
 ```bash
 pip install selenium requests
 
-🚀 Usage
+##🚀 Usage
 bash
 python dan_tri_crawl.py /path/to/chromedriver https://dantri.com.vn/
 Arguments
@@ -36,7 +36,7 @@ Text_Content/: Contains .txt files with article titles and content.
 
 Audio/: Contains .mp3 files of the text-to-speech audio.
 
-📂 Folder Structure
+##📂 Folder Structure
 css
 Sao chép
 Chỉnh sửa
@@ -45,7 +45,7 @@ Chỉnh sửa
 │   └── article-title.mp3
 ├── Text_Content/
 │   └── article-title.txt
-⚠️ Notes
+##⚠️ Notes
 Make sure the ChromeDriver version matches your installed version of Chrome.
 The script uses class and attribute selectors that may change if Dân Trí updates their website layout.
 Pages with no audio or missing elements will be skipped or logged with errors.

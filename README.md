@@ -12,7 +12,7 @@ This Python script automates the process of scraping articles from the [Dân Tr�
 
 ## 🛠️ Requirements
 
-- Python 3.12+
+-Python 3.12+
 - Google Chrome
 - ChromeDriver matching your Chrome version
 
@@ -28,14 +28,13 @@ pip install selenium requests
 
 python dan_tri_crawl.py /path/to/chromedriver https://dantri.com.vn/
 
-Arguments
-/path/to/chromedriver: Absolute path to your chromedriver binary.
-https://dantri.com.vn/: URL of the Dân Trí article listing page to start crawling from.
+Arguments:
+-/path/to/chromedriver: Absolute path to your chromedriver binary.
+-https://dantri.com.vn/: URL of the Dân Trí article listing page to start crawling from.
 
-Output
-Text_Content/: Contains .txt files with article titles and content.
-
-Audio/: Contains .mp3 files of the text-to-speech audio.
+Output:
+-Text_Content/: Contains .txt files with article titles and content.
+-Audio/: Contains .mp3 files of the text-to-speech audio.
 
 ## 📂 Folder Structure
 

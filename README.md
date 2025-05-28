@@ -46,7 +46,9 @@ css
 │   └── article-title.mp3
 ├── Text_Content/
 │   └── article-title.txt
-##⚠️ Notes
+
+## ⚠️ Notes
+
 Make sure the ChromeDriver version matches your installed version of Chrome.
 The script uses class and attribute selectors that may change if Dân Trí updates their website layout.
 Pages with no audio or missing elements will be skipped or logged with errors.

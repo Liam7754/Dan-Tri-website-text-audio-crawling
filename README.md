@@ -23,7 +23,8 @@ Install the required Python packages:
 ```bash
 pip install selenium requests
 
-##🚀 Usage
+## 🚀 Usage
+
 bash
 python dan_tri_crawl.py /path/to/chromedriver https://dantri.com.vn/
 Arguments
@@ -36,10 +37,10 @@ Text_Content/: Contains .txt files with article titles and content.
 
 Audio/: Contains .mp3 files of the text-to-speech audio.
 
-##📂 Folder Structure
+## 📂 Folder Structure
+
 css
-Sao chép
-Chỉnh sửa
+
 ├── scraper.py
 ├── Audio/
 │   └── article-title.mp3

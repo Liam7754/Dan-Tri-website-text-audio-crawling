@@ -20,12 +20,12 @@ This Python script automates the process of scraping articles from the [Dân Tr�
 
 Install the required Python packages:
 
-```bash
+
 pip install selenium requests
 
 ## 🚀 Usage
 
-bash
+
 python dan_tri_crawl.py /path/to/chromedriver https://dantri.com.vn/
 Arguments
 /path/to/chromedriver: Absolute path to your chromedriver binary.

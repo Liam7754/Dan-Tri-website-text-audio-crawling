@@ -27,9 +27,9 @@ pip install selenium requests
 
 
 python dan_tri_crawl.py /path/to/chromedriver https://dantri.com.vn/
+
 Arguments
 /path/to/chromedriver: Absolute path to your chromedriver binary.
-
 https://dantri.com.vn/: URL of the Dân Trí article listing page to start crawling from.
 
 Output
@@ -39,7 +39,6 @@ Audio/: Contains .mp3 files of the text-to-speech audio.
 
 ## 📂 Folder Structure
 
-css
 
 ├── scraper.py
 ├── Audio/

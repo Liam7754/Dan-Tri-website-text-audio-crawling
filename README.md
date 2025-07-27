@@ -21,7 +21,7 @@ This Python script automates the process of scraping articles from the [Dân Tr�
 Install the required Python packages:
 
 
-pip install selenium requests
+pip install selenium 
 
 ## 🚀 Usage
 
